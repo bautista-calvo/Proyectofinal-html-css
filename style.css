@@ -1,43 +1,87 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 
+
 }
 
 body{
-    background-color: rgb(231, 73, 73);
     font-size: 1.1rem;
 }
+
 
 ul,a{
     text-decoration: none;
     list-style: none;
 }
 
+
 a{
     color: black;
 }
+
 
 h4{
     margin-top: 50px;
     background-color: yellow;
 }
 
+/* INICIO DE HEADER */
+
 header{
-    
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    margin: 0 250px;
 }
+
+
+nav{
+    margin: auto;
+    text-transform: uppercase;
+}
+
+li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.logo{
+    padding: 10px;
+}
+
+i{
+    margin: 20px 10px;
+}
+
+/* FIN DE HEADER */
+
+
+/* EMPIEZO DE SECTIONS */
 .primersec{
     background-color: yellow;
+    height: 90vh;
 }
+
 
 .segundosec{
     background-color: white;
 }
 
+
 .tercersec{
     background-color: rgb(233, 233, 233);
 }
 
+
 .cuartosec{
     background-color: white;
 }
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
