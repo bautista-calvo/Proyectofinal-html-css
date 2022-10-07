@@ -1,3 +1,5 @@
+/* CARACTERISTICAS GENERALES */
+
 *{
     margin: 0;
     padding: 0;
@@ -21,10 +23,14 @@ a{
 }
 
 
+
 h4{
     margin-top: 50px;
     background-color: yellow;
 }
+
+/* FIN CARACTERISTICAS GENERALES */
+
 
 /* INICIO DE HEADER */
 
