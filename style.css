@@ -77,6 +77,32 @@ i{
 }
 
 .freelancer{
+    margin-bottom: 15px;
+}
+
+.developer{
+    margin-bottom: 15px;    
+}
+
+.basedinlp{
+    margin-bottom: 15px;
+}
+
+.vemistrabajos{
+    background-color: rgb(53, 50, 50);
+    border-left: 30px solid rgb(53, 50, 50);
+    border-right: 30px solid rgb(53, 50, 50);
+    border-top: 10px solid rgb(53, 50, 50);
+    border-bottom: 10px solid rgb(53, 50, 50);
+}
+
+.avemistrabajos{
+    color: white;
+    text-transform:capitalize;
+}
+
+.acontactme{
+    text-decoration: underline;
 }
 
 img{
@@ -85,6 +111,7 @@ img{
     height: 40vh;
     margin-left: 100px;
 }
+
 
 
 .flechaabajo{
