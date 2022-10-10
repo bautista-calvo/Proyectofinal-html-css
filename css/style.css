@@ -51,7 +51,7 @@ nav{
 li{
     display: inline;
     margin-left: 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .logo{
@@ -71,26 +71,6 @@ i{
 .primersec{
     background-color: rgb(252, 229, 103);
     height: 90vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.freelancer{
-    text-overflow: ;
-}
-
-img{
-    border: 10px solid white;
-    border-radius: 50%;
-    height: 40vh;
-    margin-left: 100px;
-}
-
-
-.flechaabajo{
-    position: absolute;
-   bottom: 0;
 }
 
 
