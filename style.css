@@ -69,23 +69,30 @@ i{
 /* EMPIEZO DE SECTIONS */
 
 .primersec{
-    background-color: rgb(252, 229, 103);
+    background-color: rgb(255, 229, 80);
     height: 90vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+
 .freelancer{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .developer{
-    margin-bottom: 15px;    
+    margin-bottom: 30px;
+    font-size: 70px;
+    border-right: 10px solid rgb(172, 172, 16);
+    padding-right: 10px;
+    line-height: 70px;
 }
 
 .basedinlp{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .vemistrabajos{
@@ -102,13 +109,14 @@ i{
 }
 
 .acontactme{
+    margin-left: 30px;
     text-decoration: underline;
 }
 
 img{
     border: 10px solid white;
     border-radius: 50%;
-    height: 40vh;
+    height: 45vh;
     margin-left: 100px;
 }
 
