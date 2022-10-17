@@ -6,9 +6,9 @@
 
 h4{
     
-    background-color: yellow;
+    background-color: rgb(255, 229, 80);
     display: inline;
-    
+    font-weight: 500;
 }
 
 body{
@@ -80,8 +80,7 @@ li{
     align-items: center;
 }
 
-.container1sec1{
-}
+
 
 .container2sec1{
     margin: auto;
@@ -145,7 +144,7 @@ img{
 .flechaabajo{
     position: absolute;
     bottom: 5%;
-    left: 50%;
+    left: 49%;
     
     align-items: center;
     
@@ -154,18 +153,65 @@ img{
 
 .segundosec{
     background-color: lightblue;
+    height: 60vh;
+}
+
+.container1sec2{
+    display: flex;
+    width: 70vw;
+}
+
+.subcontainer1sec2{
+    width: 50vw;
+}
+
+.subcontainer2sec2{
+    padding-left: 50px;
 }
 
 .acercademi{
     position: relative;
-    left: 47%;
+    left: 45%;
     text-transform: capitalize;
+    margin-bottom: 10px;
 }
 
+.conocememejor{
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.soybc{
+    font-weight: 500;
+}
 
+.textoacercademi{
+    margin: 10px 10px 50px 0;
+    line-height: 25px;
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(255, 229, 80);
+    border-radius: 50%;
+}
+
+.unodelcirculo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.aniosdeexp{
+    width: ;
+    height: ;
+    font-size: 50px;
+}
 
 .tercersec{
     background-color: rgb(238, 238, 238);
 }
-
