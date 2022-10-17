@@ -5,10 +5,14 @@
 }
 
 h4{
-    
     background-color: rgb(255, 229, 80);
-    display: inline;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    
+    margin: 0px auto;
 }
 
 body{
@@ -22,10 +26,6 @@ body{
     /* background-color: red; */
 }
 
-.containersec2, .containersec3, .containersec4{
-    margin-top: 50px;
-}
-
 header{
     /* background-color: lightblue; */
     width: 75%;
@@ -37,7 +37,7 @@ header{
 
 .logo{
     padding: 10px 0;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 nav{
@@ -63,7 +63,7 @@ ul,a{
 
 li{
     margin: auto 5px;
-    font-size: 15px;
+    font-size: 0.9em;
 }
 
 
@@ -78,18 +78,13 @@ li{
     height: 90vh;
     flex-direction:row;
     align-items: center;
-}
-
-
-
-.container2sec1{
-    margin: auto;
+    justify-content: space-between;
 }
 
 .freelancer{
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.9em;
 }
 
 .developer{
@@ -131,7 +126,6 @@ li{
 
 .botonsec1{
     display: flex;
-    flex
 }
 
 img{
@@ -152,28 +146,24 @@ img{
 
 
 .segundosec{
-    background-color: lightblue;
-    height: 60vh;
+    height: 65vh;
+    padding-top: 40px;
 }
 
 .container1sec2{
     display: flex;
-    width: 70vw;
+    justify-content: space-between;
 }
 
 .subcontainer1sec2{
     width: 50vw;
 }
 
-.subcontainer2sec2{
-    padding-left: 50px;
-}
-
 .acercademi{
-    position: relative;
+    /* position: relative;
     left: 45%;
     text-transform: capitalize;
-    margin-bottom: 10px;
+    margin-bottom: 10px; */
 }
 
 .conocememejor{
@@ -185,9 +175,15 @@ img{
     font-weight: 500;
 }
 
+.nombresec2{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 229, 80);
+}
+
 .textoacercademi{
     margin: 10px 10px 50px 0;
-    line-height: 25px;
+    line-height: 30px;
+
 }
 
 .circulo{
@@ -195,6 +191,7 @@ img{
     height: 100px;
     background-color:rgb(255, 229, 80);
     border-radius: 50%;
+    margin:0 auto 10px auto;
 }
 
 .unodelcirculo{
@@ -204,14 +201,65 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 100px;
+    color: rgb(53, 53, 53);
 }
 
 .aniosdeexp{
-    width: ;
-    height: ;
-    font-size: 50px;
+    width: 20vw;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.tablasec2{
+    margin-top: 40px;
+}
+
+.tdsec2{
+    padding-right: 150px;
 }
 
 .tercersec{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(248, 248, 248);
+    height: 100vh;
+    padding-top: 40px;
+}
+
+.containersec3{
+    
+}
+
+.whatido{
+    text-transform: capitalize;
+}
+
+.h1titulosec3{
+    text-align: center;
+    padding: 5px 0 80px 0;
+}
+
+.iconosec3{
+    color: rgb(255, 229, 80);
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+
+.subcontainersec3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sectoressec3{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    padding-right: 20px;
+}
+
+.psec3{
+    text-align: justify;
+    font-size: 0.9em;
+    padding-top: 15px;
 }
