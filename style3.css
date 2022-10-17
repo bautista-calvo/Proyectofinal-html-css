@@ -1,10 +1,14 @@
-/* CARACTERISTICAS GENERALES */
-
 *{
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+h4{
+    
+    background-color: yellow;
+    display: inline;
+    
 }
 
 body{
@@ -15,79 +19,73 @@ body{
 .container{
     width: 75%;
     margin: 0 auto;
-    background-color: red;
+    /* background-color: red; */
 }
 
-
-ul,a{
-    text-decoration: none;
-    list-style: none;
-}
-
-
-a{
-    color: black;
-}
-
-
-
-h4{
+.containersec2, .containersec3, .containersec4{
     margin-top: 50px;
-    background-color: yellow;
 }
-
-/* FIN CARACTERISTICAS GENERALES */
-
-
-/* INICIO DE HEADER */
 
 header{
+    /* background-color: lightblue; */
+    width: 75%;
+    margin: 0 auto;
     display: flex;
-    justify-content:center;
-}
+    justify-content: space-between;
 
-
-nav{
-    margin: 17px 30px;
-    text-transform: uppercase;
-}
-
-li{
-    display: inline;
-    margin-left: 10px;
-    font-size: 13px;
 }
 
 .logo{
-    padding: 10px;
+    padding: 10px 0;
     font-size: 25px;
 }
 
-i{
-    margin: 20px 10px;
+nav{
+    text-transform: uppercase;
+    margin: auto;
 }
 
-/* FIN DE HEADER */
+.iconos{
+    display: flex;
+    margin: auto 0;
+}
+
+i{
+    margin-left: 10px;
+}
+
+ul,a{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+li{
+    margin: auto 5px;
+    font-size: 15px;
+}
 
 
-/* EMPIEZO DE SECTIONS */
 
 .primersec{
     background-color: rgb(255, 229, 80);
     height: 90vh;
+}
+
+.containersec1{
     display: flex;
+    height: 90vh;
     flex-direction:row;
-    justify-content: center;
+    align-items: center;
 }
 
 .container1sec1{
-    display: flex;
 }
 
 .container2sec1{
-    display: flex;
+    margin: auto;
 }
-
 
 .freelancer{
     margin-bottom: 10px;
@@ -101,6 +99,7 @@ i{
     border-right: 10px solid rgb(172, 172, 16);
     padding-right: 10px;
     line-height: 70px;
+    margin-left: -5px;
 }
 
 .basedinlp{
@@ -121,8 +120,19 @@ i{
 }
 
 .acontactme{
-    margin-left: 30px;
+    margin:auto 0 auto 30px ;
     text-decoration: underline;
+    align-items: center;
+    text-align: center;
+}
+
+.flechacontactame{
+    margin: 10px 0 10px 10px;
+}
+
+.botonsec1{
+    display: flex;
+    flex
 }
 
 img{
@@ -132,33 +142,30 @@ img{
     margin-left: 100px;
 }
 
-
-
 .flechaabajo{
     position: absolute;
-   bottom: 0;
-   align-items: ;
+    bottom: 5%;
+    left: 50%;
+    
+    align-items: center;
+    
 }
 
 
 .segundosec{
-    background-color: white;
+    background-color: lightblue;
 }
+
+.acercademi{
+    position: relative;
+    left: 47%;
+    text-transform: capitalize;
+}
+
+
 
 
 .tercersec{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(238, 238, 238);
 }
-
-
-.cuartosec{
-    background-color: white;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 
