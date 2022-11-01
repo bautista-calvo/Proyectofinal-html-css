@@ -418,3 +418,25 @@ hr{
     background-color: rgb(248, 248, 248);
     height: 130vh;
 }
+
+.h1titulosect5{
+    text-align: center;
+    padding: 15px 0 20px 0;
+}
+
+.ulsec5{
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.lisec5{
+    font-weight: 700;
+    color: rgb(167, 167, 167);
+    padding-left: 10px;
+}
+
+.liTodos{
+    padding-left: 0;
+    color: black;
+    border-bottom: 3px solid rgb(255, 229, 80);
+}
