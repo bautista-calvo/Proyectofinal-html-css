@@ -94,6 +94,12 @@ li{
     padding-right: 10px;
     line-height: 70px;
     margin-left: -5px;
+    color: rgb(255, 240, 240);
+}
+.developer2{
+    transform: translate(5px,-97px);
+    color: black;
+    border: none;
 }
 
 .basedinlp{
@@ -300,7 +306,8 @@ hr{
     width: 550px;
     text-align: center;
     margin: 20px 0;
-    border-color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+    
     
 }
 
@@ -312,4 +319,15 @@ hr{
 .titulosdemiresumen{
     font-weight: 500;
     font-size: 1.2em;
+}
+
+.presumen{
+    color: rgb(95, 95, 95);
+}
+
+
+@media(max-width:1024px){
+    html{
+        width: 1024px;
+    }
 }
