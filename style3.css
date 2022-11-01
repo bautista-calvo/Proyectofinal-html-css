@@ -94,11 +94,11 @@ li{
     padding-right: 10px;
     line-height: 70px;
     margin-left: -5px;
-    color: black(255, 240, 240);
+    color: rgb(53, 59, 28);
 }
 .developer2{
-    transform: translate(5px,-97px);
-    color: rgb(182, 33, 33);
+    transform: translate(-4px,-103px);
+    color: black;
     border: none;
 }
 
@@ -289,6 +289,7 @@ img{
 .containertodo{
     display: flex;
     /* justify-content: space-around; */
+    padding-bottom: 50px;
 }
 
 .diveducacion{
@@ -325,9 +326,95 @@ hr{
     color: rgb(95, 95, 95);
 }
 
+/*skills*/
+.misskils{
+    padding: 0 0 20px 0;
+}
 
-@media(max-width:1024px){
-    html{
-        width: 1024px;
-    }
+.whjrab{
+    display: flex;
+}
+
+.whj{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.rab{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.palabrasbarraprogreso{
+    display: flex;
+    justify-content: space-between;
+}
+
+.barragris{
+    margin:10px 0 25px 0;
+    width: 100%;
+    height: 1vh;
+    background-color: rgba(236, 236, 236, 0.74);
+    border-radius: 15px;
+}
+
+.barraamarillo{
+    height: 1vh;
+    background-color: rgb(255, 229, 80);
+    border-radius: 15px;
+}
+
+.barrawebdesign{
+    width: 65%;
+}
+
+.barrahtmlcss{
+    width: 95%;
+}
+
+.barrajavascript{
+    width: 80%;
+}
+
+.barrareactjs{
+    width: 70%;
+}
+
+.barraangujarjs{
+    width: 60%;
+}
+
+.barrabootstrap{
+    width: 99%;
+}
+
+.renglonarribadebarra{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.downloadcv{
+    border: 2px solid rgb(37, 36, 36);
+    width: 10vw;
+    height: 5vh;
+    background-color: white;
+    color: rgb(37, 36, 36);
+    font-weight: 600;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.divdownloadcv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+/*section 5*/
+
+.quintosec{
+    padding-top: 60px;
+    background-color: rgb(248, 248, 248);
+    height: 130vh;
 }
