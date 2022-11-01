@@ -94,11 +94,11 @@ li{
     padding-right: 10px;
     line-height: 70px;
     margin-left: -5px;
-    color: rgb(255, 240, 240);
+    color: black(255, 240, 240);
 }
 .developer2{
     transform: translate(5px,-97px);
-    color: black;
+    color: rgb(182, 33, 33);
     border: none;
 }
 
@@ -107,11 +107,11 @@ li{
 }
 
 .vemistrabajos{
-    background-color: rgb(53, 50, 50);
-    border-left: 30px solid rgb(53, 50, 50);
-    border-right: 30px solid rgb(53, 50, 50);
-    border-top: 10px solid rgb(53, 50, 50);
-    border-bottom: 10px solid rgb(53, 50, 50);
+    background-color: rgb(37, 36, 36);
+    border-left: 30px solid rgb(37, 36, 36);
+    border-right: 30px solid rgb(37, 36, 36);
+    border-top: 10px solid rgb(37, 36, 36);
+    border-bottom: 10px solid rgb(37, 36, 36);
 }
 
 .avemistrabajos{
