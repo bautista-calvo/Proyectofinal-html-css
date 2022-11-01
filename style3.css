@@ -134,7 +134,7 @@ li{
     display: flex;
 }
 
-img{
+.fotoconmama{
     border: 10px solid white;
     border-radius: 50%;
     height: 55vh;
@@ -440,3 +440,18 @@ hr{
     color: black;
     border-bottom: 3px solid rgb(255, 229, 80);
 }
+
+
+.subcontainersec5{
+    display: grid;
+}
+.cuadroimagen{
+    height: 300px;
+    width: 300px;
+}
+
+.boselli{
+    height: 300px;
+    width: 300px;
+}
+
