@@ -443,15 +443,39 @@ hr{
 
 
 .subcontainersec5{
-    display: grid;
-}
-.cuadroimagen{
-    height: 300px;
-    width: 300px;
-}
-
-.boselli{
-    height: 300px;
-    width: 300px;
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 35px;
 }
 
+.imagenes{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.foto1{
+    padding: 0 15px 15px 0;
+}
+
+.foto2{
+    padding: 0 15px 15px 0;
+}
+
+.foto3{
+    padding: 0 15px 15px 0;
+}
+
+.foto4{
+    padding: 0 15px 15px 0;
+}
+
+.foto5{
+    padding: 0 15px 15px 0;
+}
+
+.foto6{
+    padding: 0 15px 15px 0;
+}
