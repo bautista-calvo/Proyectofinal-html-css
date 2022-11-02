@@ -165,13 +165,6 @@ li{
     width: 50vw;
 }
 
-.acercademi{
-    /* position: relative;
-    left: 45%;
-    text-transform: capitalize;
-    margin-bottom: 10px; */
-}
-
 .conocememejor{
     text-align: center;
     margin-bottom: 30px;
@@ -233,10 +226,6 @@ li{
     background-color: rgb(248, 248, 248);
     height: 100vh;
     padding-top: 60px;
-}
-
-.containersec3{
-    
 }
 
 .whatido{
@@ -479,3 +468,60 @@ hr{
 .foto6{
     padding: 0 15px 15px 0;
 }
+
+/* Inicio cuarto sec */
+
+.novenosec{
+    background-color: rgb(255, 229, 80);
+    height: 70vh;
+    padding-top: 60px;
+}
+
+.containersec9{
+    display: flex;
+    justify-content: space-between;
+}
+
+.primerdiv, .segundodiv{
+    width: 40%;
+}
+
+
+.h1sec9{
+    font-size: 1.8em;
+    padding-bottom: 30px;
+}
+
+.colortextosec9{
+    font-weight: 500;
+    line-height: 40px;
+    color: rgb(43, 43, 43);
+}
+
+.pprimerdiv{
+    padding-bottom: 30px;
+}
+
+.iconossec9{
+    margin-top: 30px;
+    display: flex;
+}
+
+.iconosection9{
+    margin-left: 0;
+    color: rgb(43, 43, 43);
+    height: 40px;
+    width: 40px;
+}
+
+.segundodiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.label1{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: rgb(43, 43, 43);
+}
+
