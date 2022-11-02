@@ -525,3 +525,48 @@ hr{
     color: rgb(43, 43, 43);
 }
 
+.input1{
+    padding-top: 20px;
+    background-color: rgb(255, 229, 80);
+    border: none;
+    border-bottom: 1px solid rgb(43, 43, 43);
+    transition: 0.5s ease-in-out;
+}
+
+.label2{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: rgb(43, 43, 43);
+    margin-top: 20px;
+}
+
+.input2{
+    padding-top: 20px;
+    background-color: rgb(255, 229, 80);
+    border: none;
+    border-bottom: 1px solid rgb(43, 43, 43);
+    transition: 0.5s ease-in-out;
+}
+
+.label3{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: rgb(43, 43, 43);
+    margin-top: 20px;
+}
+
+textarea{
+    height: 135px;
+    background-color: rgb(255, 229, 80);
+    border: none;
+    border-bottom: 1px solid rgb(43, 43, 43);
+}
+
+.buttonsec9{
+    margin-top: 20px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
